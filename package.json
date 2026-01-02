@@ -1,0 +1,15 @@
+{
+  "name": "performance-api",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --hot src/index.ts",
+    "start": "bun src/index.ts",
+    "test": "bun test",
+    "loadtest": "bun scripts/load-test-runner.ts",
+    "loadtest:worker": "bun scripts/load-test.ts"
+  },
+  "dependencies": {
+    "postgres": "^3.4.7"
+  }
+}
