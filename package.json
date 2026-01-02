@@ -7,7 +7,8 @@
     "start": "bun src/index.ts",
     "test": "bun test",
     "loadtest": "bun scripts/load-test-runner.ts",
-    "loadtest:worker": "bun scripts/load-test.ts"
+    "loadtest:worker": "bun scripts/load-test.ts",
+    "docker:down": "docker compose down"
   },
   "dependencies": {
     "postgres": "^3.4.7"
